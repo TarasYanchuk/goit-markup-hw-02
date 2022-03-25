@@ -12,6 +12,7 @@
   --accent-text-color: #2196f3;
   --primary-bg-color: #fff;
   --secondary-bg-color: #2f303a;
+  --button-bg-color: #f5f4fa;
 }
 .list {
   list-style: none;
@@ -20,10 +21,18 @@
 .body {
   background-color: var(--primary-bg-color);
   font-family: roboto, sans-serif;
+  font-style: normal;
 }
 .footer,
 .hero {
   background-color: var(--secondary-bg-color);
+}
+.footer .address-contact {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
 .logo {
   color: var(--accent-text-color);
@@ -47,11 +56,14 @@
 .site-nav .link:focus {
   color: var(--accent-text-color);
 }
-.address-contact .contact {
+.header .contact {
   color: var(--secondary-text-color);
 }
-.address-contact .contact:hover,
-.address-contact .contact:focus {
+.header .link {
+  color: var(--primary-bg-color);
+}
+.header .contact:hover,
+.header .contact:focus {
   color: var(--accent-text-color);
 }
 /*hero*/
@@ -65,16 +77,19 @@
   text-transform: uppercase;
 }
 .button {
-  color: var(--primary-text-color);
-  background-color: #f5f4fa;
+  font-family: roboto, sans-serif;
   cursor: pointer;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.8;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
+}
+.button-nav .button {
+  background-color: var(--button-bg-color);
+}
+.button-nav .button:focus,
+.button-nav .button:hover {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-text-color);
 }
 .button.primary {
   color: var(--primary-bg-color);
@@ -93,11 +108,35 @@
   color: var(--secondary-text-color);
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.7px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+}
+.section-team {
+  background-color: #f5f4fa;
+}
+.work,
+.team {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+.section-team .section-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.section-team .section-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.16;
+  text-align: center;
   letter-spacing: 0.03em;
 }
 /*Footer*/
-.address .link {
+.footer .link {
   color: var(--primary-bg-color);
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -106,7 +145,7 @@
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
-.address .contact {
+.footer .contact {
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto, sans-serif;
   font-style: normal;
