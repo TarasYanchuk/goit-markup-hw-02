@@ -71,6 +71,9 @@
 }
 .header .contact {
   color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .header .link {
   color: var(--primary-bg-color);
@@ -124,7 +127,6 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-transform: uppercase;
 }
 .section-subtitle {
   color: var(--secondary-text-color);
@@ -137,23 +139,33 @@
 }
 .work,
 .team {
-  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  text-align: center;
 }
 .section-team .section-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .section-team .section-subtitle {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.16;
   text-align: center;
+}
+.breadcrumbs .section-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.breadcrumbs .section-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
 }
 /*Footer*/
