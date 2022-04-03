@@ -60,7 +60,6 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
-  letter-spacing: 0.02em;
 }
 .site-nav .link.current {
   color: var(--accent-text-color);
@@ -160,13 +159,11 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06em;
 }
 .breadcrumbs .section-subtitle {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
 }
 /*Footer*/
 .footer .link {
@@ -176,7 +173,6 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 .footer .contact {
   color: rgba(255, 255, 255, 0.6);
@@ -185,5 +181,4 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
 }
